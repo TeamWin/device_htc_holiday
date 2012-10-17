@@ -34,7 +34,7 @@ BOARD_SDEXT_DEVICE := /dev/block/mmcblk1p2
 BOARD_USES_MMCUTILS := true
 BOARD_HAS_NO_MISC_PARTITION := true
 #BOARD_CUSTOM_GRAPHICS:= ../../../device/htc/holiday/graphics.c
-BOARD_USES_RECOVERY_CHARGEMODE := true
+#BOARD_USES_RECOVERY_CHARGEMODE := true
 
 #twrp settings
 DEVICE_RESOLUTION := 540x960
@@ -44,3 +44,4 @@ TW_INTERNAL_STORAGE_MOUNT_POINT := "emmc"
 TW_EXTERNAL_STORAGE_PATH := "/sdcard"
 TW_EXTERNAL_STORAGE_MOUNT_POINT := "sdcard"
 TW_INCLUDE_DUMLOCK := true
+TARGET_RECOVERY_INITRC := device/htc/holiday/recovery/init.rc
